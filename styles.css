@@ -32,4 +32,7 @@
     font-style: italic;
     font-display: fallback;
     src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i7.3a67996166b5b7f1b7cc3b35490ebd6824908dc5.woff2?h1=YnJhc2lsaGVyb2UuY29t&hmac=79248132a117acc86a1d6174c4d6ca81853202b12eef4f7fb7f1f0dc64b69bcb") format("woff2"), url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i7.b872875ff437f0efb4c2321d0016eaa726b649ae.woff?h1=YnJhc2lsaGVyb2UuY29t&hmac=ff7c9d3394c43176acee0c060d99248e76a850c73ae67a6f2fda75c2838c0be7") format("woff"); }
-  
+
+body{
+    font-family: "Avenir Next";
+}
