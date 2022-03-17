@@ -65,12 +65,28 @@ header{
 }
 .content-container p {
     font-size: 2.1rem;
-    text-align: center;
 }
 .image-wrapper{
     height: 50%;
     text-align: center;
 }
+
+.button {
+    border: 1px solid;
+    text-align: center;
+    padding: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.button--left{
+    background-color: yellow;
+}
+.button--rigth{
+    background-color: blue;
+}
+
+
 
 @media (orientation: portrait) {
     .body-wrapper{
@@ -89,18 +105,5 @@ header{
         font-size: 1.5rem;
     }
 
-    .button {
-        border: 1px solid;
-        text-align: center;
-        padding: 1rem;
-        width: 50%;
-        margin: 0 auto;
-        
-    }
-    .button--left{
-        background-color: yellow;
-    }
-    .button--rigth{
-        background-color: blue;
-    }
+   
   }
