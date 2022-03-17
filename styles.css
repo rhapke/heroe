@@ -45,6 +45,13 @@ a {
 header{
     height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('pattern.svg');
+}
+
+header img{
+    height: 50%;
 }
 
 .body-wrapper{
@@ -62,6 +69,7 @@ header{
     padding-left: 3%;
     margin: 1%;
     padding-right: 3%;
+    justify-content: space-around;
 }
 .content-container p {
     font-size: 2.1rem;
@@ -80,10 +88,11 @@ header{
     
 }
 .button--left{
-    background-color: yellow;
+    background-color: #EADA24;
 }
-.button--rigth{
-    background-color: blue;
+.button--right{
+    background-color: #0033A0;
+    color: white;
 }
 
 
